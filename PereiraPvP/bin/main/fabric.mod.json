@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "pereirapvp",
+  "version": "${version}",
+
+  "name": "PereiraPVP",
+  "description": "",
+  "authors": [
+    "Pereira"
+  ],
+  "contact": {
+  },
+
+  "license": "MIT",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.pereirapvp.pvp.ModMain"
+    ]
+  },
+  "mixins": [
+    "pereirapvp.pvp.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "fabric": "*",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
