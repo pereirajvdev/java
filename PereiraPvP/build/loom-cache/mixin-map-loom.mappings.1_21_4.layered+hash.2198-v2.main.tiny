@@ -1,0 +1,3 @@
+v1	named	intermediary
+METHOD	com/pereirapvp/pvp/mixins/MixinCamera	(FF)V	setRotation	method_19325
+METHOD	com/pereirapvp/pvp/mixins/MixinCamera	(DDD)V	setPosition	method_19327
